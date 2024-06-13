@@ -1,21 +1,5 @@
 ---
-
-- hosts: all
-  become: true
-  pre_tasks:
-
-  - name: install updates (CentOS)
-    dnf: 
-      update_only: yes
-      update_cache: yes
-    when: ansible_distribution == "CentOS"
-
-  - name: install updates (Ubuntu)
-    apt:
-      upgrade: dist
-      update_cache: yes
-    when: ansible_distribution == "Ubuntu" 
-
+ 
 
 - hosts: web_servers
   become: true
@@ -54,3 +38,13 @@
       state: latest
     when: ansible_distribution == "Ubuntu"
  
+- hosts: file_servers
+  become: true
+  tasks:
+
+  - name: install samba package 
+    package:   
+      name: samba
+      state: latest
+    
+
