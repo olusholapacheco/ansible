@@ -19,7 +19,6 @@
     when: ansible_distribution == "Ubuntu"
 
 
-
 - hosts: all
   become: true 
   roles:
