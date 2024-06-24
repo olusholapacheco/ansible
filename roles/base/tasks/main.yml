@@ -1,4 +1,4 @@
 - name: add ssh key for samantha
   authorized_key:
     user: samantha
-    key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCzApWKEEl9a3XyTya4Vwh8R6UCkuDJAasu1KeSznGyB7LfwPn/d5Yni42RJTTKehfe/K8nBokP59IvNP7Vwmo4RbvuzGlIIKc6WLyvZ4176nHRhKqxT2dFTNodIZyyF9TjRR6XN/0Y6RicCmIS9F6pN9SZxrkUH7UX/vfuseQRfkNRzTzXnFA/vuJLAFQg6qxeFSOLJPdCRgUhhV9DE8fdRI15jkrqZEDmJ5yPqLOnlv2Ft/XJ9gIUSYMrVlCTuoS42ipVbYVkSVkGpE1umAUF9Kn/2qpJXygaK4AYP1vUgAkhqcdJuh5qm03cjAWVeYjzwyuBlffzkV1gEhZ4L5IJl4QSMkp07Q8X+rJUIsLWMAe45HaqWaRIXAXNv/Gp/K6DFTtlLWq5y6mRhcSQqN//f/K8iLb8WCNgIGTpIQ8l3rdpBvOfK6yLHeKrdxSdxVjqbsc6VXvCjDLjzDBFL2gKNSOwsR+Rx0rsOLNarprAiJdV0q/Un2zjJUBB9n6lHvM= vagrant@master"
+    key: "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMZPpvTt3/MB/5MSxq82wsB+FzXbR1++iuSEDmn2A0m7 vagrant Key"
